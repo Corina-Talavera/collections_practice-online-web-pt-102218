@@ -5,10 +5,7 @@ def collections_practice
   # Question 1
   def sort_array_asc
     sort_array_asc = ["25", "7", "1"]
-    sort_array_asc
-  describe '#sort_array_asc' do
-    it 'should return an array sorted in ascending order' do
-      expect(sort_array_asc([25, 7, 1])).to eq([1,7,25])
+    sort_array_asc.order
     end
   end
 
