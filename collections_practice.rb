@@ -5,14 +5,13 @@ def collections_practice
   # Question 1
   def sort_array_asc
     sort_array_asc = ["25", "7", "1"]
-    sort_array_asc.order
+    puts sort_array_asc.order
     end
   end
 
   # Question 2
-  def sort_array_desc' do
-    it 'should return an array sorted in descending order' do
-      expect(sort_array_desc([25, 7, 14])).to eq([25, 14, 7])
+  def sort_array_desc
+    sort_array_desc =["25", "7", "14"]
     end
   end
 
