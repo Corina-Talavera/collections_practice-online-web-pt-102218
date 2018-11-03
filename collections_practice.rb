@@ -12,7 +12,7 @@ def collections_practice
   # Question 2
   def sort_array_desc
     sort_array_desc =["25", "7", "14"]
-    purs sort_array_desc.reverse(#number) 
+    put sort_array_desc.reverse
     end
   end
 
