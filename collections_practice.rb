@@ -6,5 +6,5 @@ end
 def sort_array_dsc
    sort_array_dsc = ["25", "7", "14"]
 end
-sort_array_dsc
+sort_array_dsc! do |
   
