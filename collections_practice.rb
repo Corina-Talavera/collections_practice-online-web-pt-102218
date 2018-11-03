@@ -7,5 +7,5 @@ end
 def sort_array_dsc
    sort_array_dsc = ["25", "7", "14"]
 end
-puts 
+puts sort_array_dsc.reverse
   
