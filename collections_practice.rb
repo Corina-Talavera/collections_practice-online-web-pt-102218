@@ -12,14 +12,14 @@ def collections_practice
   # Question 2
   def sort_array_desc
     sort_array_desc =["25", "7", "14"]
-    purs sort_array_desc.reverse 
+    purs sort_array_desc.reverse(#number) 
     end
   end
 
   # Question 3
-  describe '#sort_array_char_count' do
+  def sort_array_char_count
     it 'should return an array in ascending order sorted by the number of characters in the string' do
-      expect(sort_array_char_count(["dogs", "cat", "Horses"])).to eq(["cat", "dogs", "Horses"])
+    sort_array_char_count =["dogs", "cat", "Horses"]
     end
   end
 
